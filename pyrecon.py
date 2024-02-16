@@ -145,7 +145,7 @@ def handle_user_choice(choice :int, host :str):
 def main():
     if len(sys.argv) < 2:
         print(f'\n{bcolors.FAIL}[-] Invalid usage mode!{bcolors.ENDC}')
-        print("Usage mode: python dnspython.py https://www.google.com")
+        print("Usage mode: python pyrecon.py https://www.google.com")
     else:
         show_logo()
         while True:
