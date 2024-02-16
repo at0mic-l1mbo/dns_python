@@ -2,6 +2,7 @@ import requests as req
 import sys
 import re
 from fake_useragent import UserAgent
+import socket
 
 class bcolors:
     HEADER = '\033[95m'
@@ -45,13 +46,19 @@ def web_recon(host :str):
             matches = re.findall(r'href="(http[s]?://[^"]+)"', html)
             file = open("host_links.txt", "w+")
             for link in matches:
-                file.write(f'{link}\n')
+                try:
+                    hostname = link.split("//")[1].split("/")[0]
+                    ip_address = socket.gethostbyname(hostname)
+                    file.write(f'Link: {link} IP: {ip_address}\n')
+                except Exception:
+                    pass
             file.close()
             if 'Server' in headers:
                 print(f'{bcolors.OKGREEN}[+] Server info has got!{bcolors.ENDC}')
             file = open("host_headers.txt", "w+")
             file.write(headers)
             file.close()
+            print(f'{bcolors.OKGREEN}[+] Infos are saved in [host_headers.txt] and [host_links.txt]{bcolors.ENDC}')
     except req.RequestException as e:
         print(f'{bcolors.FAIL}[-] An exception has ocurred: {e}{bcolors.ENDC}')
 
