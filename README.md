@@ -2,10 +2,7 @@
 
 <p align="center"><img src="project_image.png"> </img></p>
 
-The "Py Recon" project is a tool developed in Python for conducting reconnaissance and exploration of web servers. With features for performing DNS lookup, website reconnaissance, and directory bruteforcing, the tool offers a flexible and straightforward way to explore and analyze web targets. Leveraging libraries such as Requests and Fake User-Agent, the project provides a robust solution for gathering information about web servers, aiding in vulnerability identification and configuration analysis. Additionally, the project encourages contributions from the community for ongoing improvements, ensuring it can be adapted and enhanced for various use cases.
-
-
-<p>Some text</p>
+<p>The "Py Recon" project is a tool developed in Python for conducting reconnaissance and exploration of web servers. With features for performing DNS lookup, website reconnaissance, and directory bruteforcing, the tool offers a flexible and straightforward way to explore and analyze web targets. Leveraging libraries such as Requests and Fake User-Agent, the project provides a robust solution for gathering information about web servers, aiding in vulnerability identification and configuration analysis. Additionally, the project encourages contributions from the community for ongoing improvements, ensuring it can be adapted and enhanced for various use cases.</p>
 
 ## 🔑 Features
 
