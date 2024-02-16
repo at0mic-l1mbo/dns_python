@@ -111,7 +111,7 @@ def dir_bruteforce(host: str):
                     res = req.get(full_host_brutedomain, timeout=30)
                     if res.status_code == 200:
                         print(f'{bcolors.OKGREEN}[+] Host found {full_host_brutedomain}{bcolors.ENDC}')
-                except Exception as e:
+                except Exception:
                     pass
             else:
                 print(f'{bcolors.FAIL} [-] Subdomain is empty, skipping... {bcolors.ENDC}')
