@@ -1,4 +1,4 @@
-<h1 align="center">👀 Python Recon</h1>
+<h1 align="center">👀 Py Recon</h1>
 
 <p align="center"><img src="project_image.png"> </img></p>
 
