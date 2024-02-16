@@ -6,7 +6,7 @@
 
 ## 🔑 Features
 
-- **DIR bruteforce**: Using a wordlist from <a href="https://github.com/ricardolongatto/dnsrato">DNS Rato</a> this program can bruteforce an given host, to search for specific subdomains.
+- **DIR bruteforce**: Using a wordlist from <a href="https://github.com/ricardolongatto/dnsrato">DNS Rato</a> this program can bruteforce a given host, to search for specific subdomains.
 - **Custom useragent**: This program uses a custom user agent, the website get the requests as Safari from Mac OS.
 - **Tor proxies**: You can use tor proxies if you want, to make website bruteforce or recon.
 - **DNS lookup**: Search for the host IP and port
