@@ -14,7 +14,7 @@
 ## 🏎️ Usage<br></br>
 
 ```python
-python dns_python https://somewebsite.com
+python pyrecon.py https://somewebsite.com
 ```
 
 ## 📫 Contributions<br></br>
